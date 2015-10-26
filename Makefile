@@ -89,5 +89,5 @@ test_stack: tests/test_stack.c
 clean:
 	$(RM) $(BIN) \
 	      hello-x86 hello-x64 hello-arm hello.s \
-	      test_stack jit0-x64 jit0-arm \
-	      jit-x64.h jit-arm.h
+	      test_stack jit0-x64 jit0-arm jit-x64_opt \
+	      jit-x64.h jit-arm.h jit-x64_opt.h
